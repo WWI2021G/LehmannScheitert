@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bestellformular</title>
+        <meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Bestellformular</h1>
+    <!--Auswahl des Tischnummer und die gewünschte Aktion dafür-->
+    <form action="index.jsp" method="post">
+        <label for="tischnummer">Tischnummer:</label>
+        <input type="number" id="tischnummer" name="tischNr" required min=1 max=5><br><br>
+        <input type="submit" name="bestellen" value="Bestellen">
+        <input type="submit" name="rechnung" value="Rechnung">
+    </form>
+</body>
+</html>

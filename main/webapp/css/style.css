@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body {
+	font-family: "Open Sans", sans-serif;
+	background-image: url("picture.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.Getränke {
+	width: 700px;
+    height: 50px;
+    font-size: large;
+    table-layout:auto;
+    border-color: black;
+    table-layout: fixed;
+    margin-bottom: 100px;
+}
+
+.Getränke td:nth-child(n) {
+  width: 200px;
+}
+
+.Getränke th {
+	text-align: left;
+}
+
+.Getränke td:nth-child(4){
+	text-align:right;	
+	width: 100px;
+}
+
+.Getrönke th:nth-child(4){
+	text-align: right;
+}
+
+.Essen {
+	width: 700px;
+    height: 50px;
+    font-size: large;
+    table-layout:auto;
+    border-color: black;
+    table-layout: fixed;
+}
+
+.Essen td:nth-child(n) {
+  width: 200px;
+}
+
+.Essen th {
+	text-align: left;
+}
+
+.Essen td:nth-child(3){
+	text-align:right;	
+	width: 100px;
+}
+
+.Essen th:nth-child(3){
+	text-align: right;
+}
+.Rechnung {
+	width: 750px;
+    height: 50px;
+    font-size: large;
+    table-layout:auto;
+    border-color: black;
+    table-layout: fixed;
+}
+.Rechnung td:nth-child(n){
+	width: 250px;
+}
+.Rechnung th {
+	text-align: left;
+}
+.Rechnung th:nth-child(4){
+	text-align: right;
+}
+.Rechnung td:nth-child(4) {
+	text-align: right;
+	width: 100px;
+}
+
+.Berechnung {
+	width: 400px;
+    height: 50px;
+    font-size: large;
+    table-layout:auto;
+    border-color: black;
+    table-layout: fixed;
+    margin-bottom: 100px;
+}
+.Berechnung td:nth-child(n){
+	width: 190px;
+} 
+
+.Berechnung td:nth-child(2){
+	text-align: right;
+}
